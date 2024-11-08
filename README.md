@@ -38,8 +38,8 @@ Pacote desenvolvido para auxiliar na busca de informações contidas nos pdf, o 
 
 ### extract_regex_values
    1. Esta função extrai apenas o valor regex buscado e recebe os seguintes argumentos:
-     1. regex (obrigatório): Informa o código regex que será buscado
-     2. string (obrigatório): Informar a string que contém o dado
+      1. regex (obrigatório): Informa o código regex que será buscado
+      2. string (obrigatório): Informar a string que contém o dado
 
       #### Exemplo
       ```python
@@ -56,10 +56,10 @@ Pacote desenvolvido para auxiliar na busca de informações contidas nos pdf, o 
 
 ### abertura_notas_e_criacao_lista
    1. Esta função busca em um diretório todos os arquivos pdf e realiza a extração dos dados, retonando duas listas, uma com os arquivos que deram erro e outra com o valor procurado:
-     1. path_arquivos (obrigatório): Caminho da pasta com os arquivos
-     2. str_regex (obrigatório): Código regex que deseja buscar
-     3. empresa (opcional): Nome da empresa, se não informar será atribuido como None
-     4. mes (opcional): Mês de referência, se não informar será atribuido como None
+      1. path_arquivos (obrigatório): Caminho da pasta com os arquivos
+      2. str_regex (obrigatório): Código regex que deseja buscar
+      3. empresa (opcional): Nome da empresa, se não informar será atribuido como None
+      4. mes (opcional): Mês de referência, se não informar será atribuido como None
 
       #### Exemplo
       ```python
@@ -79,10 +79,10 @@ Pacote desenvolvido para auxiliar na busca de informações contidas nos pdf, o 
 
 ### procura_desc_in_dict
    1. Esta função busca em uma lista se determinado termo esta na posição x e retorna a posição y, os argumentos são:
-     1. dict: dict (obrigatório): Dicioário que deseja avaliar
-     2. term: str (obrigatório): Palavra que busca para retorno
-     3. x: int (obrigatório): Posição em que a palavra buscada no dicionário deve estar
-     4. y: int (obrigatório): Posição em que a palavra de retorno deve estar
+      1. dict: dict (obrigatório): Dicioário que deseja avaliar
+      2. term: str (obrigatório): Palavra que busca para retorno
+      3. x: int (obrigatório): Posição em que a palavra buscada no dicionário deve estar
+      4. y: int (obrigatório): Posição em que a palavra de retorno deve estar
 
       #### Exemplo
       ```python
@@ -98,10 +98,10 @@ Pacote desenvolvido para auxiliar na busca de informações contidas nos pdf, o 
 
 ### busca_no_dict_table
    1. Esta função busca em uma lista se determinado termo esta na posição x e retorna a posição y, os argumentos são:
-     1. tables (obrigatório): retorno ao abrir um pdf utilizando camelot
-     2. term_loc: str (obrigatório): Palavra que busca para retorno
-     3. x: int (obrigatório): Posição em que a palavra buscada no dicionário deve estar
-     4. y: int (obrigatório): Posição em que a palavra de retorno deve estar
+      1. tables (obrigatório): retorno ao abrir um pdf utilizando camelot
+      2. term_loc: str (obrigatório): Palavra que busca para retorno
+      3. x: int (obrigatório): Posição em que a palavra buscada no dicionário deve estar
+      4. y: int (obrigatório): Posição em que a palavra de retorno deve estar
 
 
       #### Exemplo
